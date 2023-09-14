@@ -1,0 +1,25 @@
+---
+title: Test
+---
+
+# A header
+
+```{r chunk1, eval=FALSE}
+1 + 1
+```
+
+## A subheader
+
+```{r chunk2, fig.cap="I am a fig caption.", fig.height=4}
+plot(mtcars$mpg, mtcars$cyl)
+```
+
+Some text.
+
+```{r chunk3}
+plot(mtcars$mpg, mtcars$disp
+```
+
+```{r chunk4, fig.cap="I am another fig caption.", eval=TRUE}
+plot(mtcars$mpg, mtcars$drat)
+```

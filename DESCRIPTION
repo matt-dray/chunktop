@@ -1,0 +1,15 @@
+Package: chunktop
+Title: Read R Markdown Chunk Options and Reinsert Them
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matt", "Dray", , "mwdray@gmail.com", role = c("aut", "cre"))
+Description: Read the options from an R Markdown chunk and prepare them into a
+    data.frame. Present this to colleagues for editing, then read the file back
+    in and reinsert the changes back to the respective R Markdown chunk options.
+    Based on 'parsermd' functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    parsermd
